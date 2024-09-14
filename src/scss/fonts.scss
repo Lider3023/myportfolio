@@ -1,0 +1,12 @@
+$Handjet:  ('Light', 300),
+                    ('Regular', 400),
+                    ('SemiBold', 600),
+                    ('Bold', 700);
+            
+@each $name, $weight in $Handjet {
+    @font-face {
+        font-family: 'Handjet';
+        src: url('../assets/fonts/Handjet-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}

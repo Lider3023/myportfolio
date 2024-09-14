@@ -1,0 +1,57 @@
+@import './fonts.scss';
+@import '../components/About/AboutContent.scss';
+@import '../components/Home/HomeContent.scss';
+@import '../components/Skills/Works.scss';
+@import './Layout/Layout.scss';
+@import '../components/Burger/BurgerMenu.scss';
+@import '../components/Loader/Loader.scss';
+@import '../components/Modal/ContactModal.scss';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Handjet';
+}
+a {
+  text-decoration: none;
+  
+}
+ul {
+  list-style: none;
+  
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin:  0 auto;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+:root {
+
+    --bg_box: #9599E2;
+    --text: #fff;
+    --bg: #8BC6EC;
+    --btn: rgb(255, 196, 0);
+}
+
+.dark {
+    --bg: #1e1e1e;
+    --text: #ffffff;
+    --bg_box: #1e1e1e;
+    --btn: #1e1e1e;
+}
+
+body {
+ 
+    background-color: var(--bg);
+    color: var(--text);
+}
